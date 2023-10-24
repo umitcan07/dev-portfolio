@@ -1,0 +1,19 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": "standard-with-typescript",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "ignorePatterns": [
+    "node_modules/",
+    "dist/",
+    "**/*.mjs",
+    "**/*.js"
+  ]
+  ,
+  "rules": {}
+}
